@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "SentinelAI - Website Risk Detector",
+  "version": "1.0.0",
+  "description": "Analyze website URLs and warn users about potentially fraudulent e-commerce websites.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ],
+  "action": {
+  "default_title": "Analyze website with SentinelAI",
+  "default_popup": "popup.html"
+}
+}
